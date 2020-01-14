@@ -18,7 +18,7 @@ public class CaptureScreenShort {
 		driver.manage().window().maximize();
 		// Code to capture the screenshot
 		Shutterbug.shootPage(driver).withName("sowmiya").save("D:\\CaptureScreenshot");
-		
+		//sowmiya
 		//FileUtils.copyFile(scrFile, new File("D:\\CaptureScreenshot\\google.jpg"));
 
 	}
